@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lilin.familyname.ui.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/settingIconSize"
+            android:layout_height="@dimen/settingIconSize"
+            android:layout_gravity="end"
+            app:srcCompat="@drawable/ic_setting" />
+
+        <TextView
+            style="@style/FormulaTextViewStyle"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="炮灰的丈夫=" />
+
+        <TextView
+            style="@style/FormulaTextViewStyle"
+
+            android:text="嬲"
+            android:textColor="@color/colorResult"
+            android:textSize="@dimen/resultTextSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/colorFormulaBackgroud"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <LinearLayout style="@style/FormulaLinearLayoutStyle">
+
+            <TextView
+                style="@style/FormulaItemStyle"
+                android:text="@string/formula.father" />
+
+            <TextView
+                style="@style/FormulaItemStyle"
+                android:text="@string/formula.mother" />
+
+            <TextView
+                android:layout_weight="2"
+                android:text="@string/formula.clear"
+                style="@style/FormulaItemStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/FormulaLinearLayoutStyle">
+
+            <TextView
+                style="@style/FormulaItemStyle"
+                android:text="@string/formula.brother_old" />
+
+            <TextView
+                style="@style/FormulaItemStyle"
+                android:text="@string/formula.sister_old" />
+
+            <TextView
+                android:text="@string/formula.husband"
+                style="@style/FormulaItemStyle" />
+
+            <TextView
+                android:text="@string/formula.wife"
+                style="@style/FormulaItemStyle" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/FormulaLinearLayoutStyle">
+
+            <TextView
+                style="@style/FormulaItemStyle"
+                android:text="@string/formula.brother_young" />
+
+            <TextView
+                style="@style/FormulaItemStyle"
+                android:text="@string/formula.sister_young" />
+
+            <TextView
+                android:text="@string/formula.son"
+                style="@style/FormulaItemStyle"
+                />
+
+            <TextView
+                style="@style/FormulaItemStyle"
+                android:text="@string/formula.daughter"
+                 />
+        </LinearLayout>
+
+        <LinearLayout style="@style/FormulaLinearLayoutStyle">
+
+            <TextView
+                android:layout_weight="2"
+                android:text="@string/formula.custom"
+                style="@style/FormulaItemStyle"
+                 />
+
+
+            <TextView
+                style="@style/FormulaItemStyle"
+                android:layout_weight="2"
+                android:text="@string/formula.equal"
+                android:textSize="@dimen/formulaTextSize" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

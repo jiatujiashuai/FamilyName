@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FamilyName</string>
+
+    <string name="formula.father">父</string>
+    <string name="formula.mother">母</string>
+    <string name="formula.brother_old">兄</string>
+    <string name="formula.sister_old">姐</string>
+    <string name="formula.brother_young">弟</string>
+    <string name="formula.sister_young">妹</string>
+    <string name="formula.husband">夫</string>
+    <string name="formula.wife">妻</string>
+    <string name="formula.son">子</string>
+    <string name="formula.daughter">女</string>
+    <string name="formula.equal">=</string>
+    <string name="formula.clear">DEL</string>
+    <string name="formula.custom">自定义</string>
+</resources>
