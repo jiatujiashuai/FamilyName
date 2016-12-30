@@ -15,6 +15,7 @@
         android:orientation="vertical">
 
         <ImageButton
+            android:id="@+id/ibtn_settings"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="@dimen/settingIconSize"
             android:layout_height="@dimen/settingIconSize"
@@ -22,16 +23,17 @@
             app:srcCompat="@drawable/ic_setting" />
 
         <TextView
+            android:id="@+id/tv_formula"
             style="@style/FormulaTextViewStyle"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="炮灰的丈夫=" />
 
         <TextView
+            android:id="@+id/tv_formula_result"
             style="@style/FormulaTextViewStyle"
-
             android:text="嬲"
-            android:textColor="@color/colorResult"
+            android:textColor="@color/colorResultText"
             android:textSize="@dimen/resultTextSize" />
 
     </LinearLayout>
@@ -40,77 +42,86 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:background="@color/colorFormulaBackgroud"
+        android:background="@color/colorFormulaTextBackgroud"
         android:orientation="vertical"
         android:padding="@dimen/activity_horizontal_margin">
 
         <LinearLayout style="@style/FormulaLinearLayoutStyle">
 
             <TextView
+                android:id="@+id/tv_father"
                 style="@style/FormulaItemStyle"
                 android:text="@string/formula.father" />
 
             <TextView
+                android:id="@+id/tv_mother"
                 style="@style/FormulaItemStyle"
                 android:text="@string/formula.mother" />
 
             <TextView
+                android:id="@+id/tv_del"
+                style="@style/FormulaItemStyle"
                 android:layout_weight="2"
-                android:text="@string/formula.clear"
-                style="@style/FormulaItemStyle" />
+                android:text="@string/formula.back" />
 
         </LinearLayout>
 
         <LinearLayout style="@style/FormulaLinearLayoutStyle">
 
             <TextView
+                android:id="@+id/tv_old_bro"
                 style="@style/FormulaItemStyle"
                 android:text="@string/formula.brother_old" />
 
             <TextView
+                android:id="@+id/tv_old_sis"
                 style="@style/FormulaItemStyle"
                 android:text="@string/formula.sister_old" />
 
             <TextView
-                android:text="@string/formula.husband"
-                style="@style/FormulaItemStyle" />
+                android:id="@+id/tv_husband"
+                style="@style/FormulaItemStyle"
+                android:text="@string/formula.husband" />
 
             <TextView
-                android:text="@string/formula.wife"
-                style="@style/FormulaItemStyle" />
+                android:id="@+id/tv_wife"
+                style="@style/FormulaItemStyle"
+                android:text="@string/formula.wife" />
         </LinearLayout>
 
         <LinearLayout style="@style/FormulaLinearLayoutStyle">
 
             <TextView
+                android:id="@+id/tv_young_bro"
                 style="@style/FormulaItemStyle"
                 android:text="@string/formula.brother_young" />
 
             <TextView
+                android:id="@+id/tv_young_sis"
                 style="@style/FormulaItemStyle"
                 android:text="@string/formula.sister_young" />
 
             <TextView
-                android:text="@string/formula.son"
+                android:id="@+id/tv_son"
                 style="@style/FormulaItemStyle"
-                />
+                android:text="@string/formula.son" />
 
             <TextView
+                android:id="@+id/tv_daughter"
                 style="@style/FormulaItemStyle"
-                android:text="@string/formula.daughter"
-                 />
+                android:text="@string/formula.daughter" />
         </LinearLayout>
 
         <LinearLayout style="@style/FormulaLinearLayoutStyle">
 
             <TextView
-                android:layout_weight="2"
-                android:text="@string/formula.custom"
+                android:id="@+id/tv_custom_name"
                 style="@style/FormulaItemStyle"
-                 />
-
+                android:layout_weight="2"
+                android:text="@string/formula.custom" />
 
             <TextView
+                android:id="@+id/tv_equal"
                 style="@style/FormulaItemStyle"
                 android:layout_weight="2"
                 android:text="@string/formula.equal"

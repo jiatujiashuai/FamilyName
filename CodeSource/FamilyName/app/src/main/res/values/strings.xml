@@ -11,7 +11,7 @@
     <string name="formula.wife">妻</string>
     <string name="formula.son">子</string>
     <string name="formula.daughter">女</string>
+    <string name="formula.back">DEL</string>
     <string name="formula.equal">=</string>
-    <string name="formula.clear">DEL</string>
-    <string name="formula.custom">自定义</string>
+    <string name="formula.custom">自定义称呼</string>
 </resources>

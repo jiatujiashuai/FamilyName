@@ -18,7 +18,7 @@
         <item name="android:layout_height">@dimen/formulaViewSize</item>
         <item name="android:gravity">center_vertical|end</item>
         <item name="android:textSize">@dimen/formulaTextSize</item>
-        <item name="android:textColor">@color/colorFormula</item>
+        <item name="android:textColor">@color/colorFormulaText</item>
         <item name="android:paddingEnd">@dimen/activity_horizontal_margin</item>
     </style>
 
@@ -29,13 +29,19 @@
         <item name="android:orientation">horizontal</item>
     </style>
 
-    <style name="FormulaItemStyle">
+    <style name="FormulaItemStyle" parent="Widget.AppCompat.Button.Borderless">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">1</item>
         <item name="android:textColor">@color/colorWhite</item>
         <item name="android:textSize">@dimen/formulaItemTextSize</item>
         <item name="android:gravity">center</item>
+        <item name="android:theme">@style/FormulaItemHighLight</item>
     </style>
+
+    <style name="FormulaItemHighLight" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorFormulaBackgroud</item>
+    </style>
+
 
 </resources>

@@ -5,7 +5,8 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="colorWhite">#fff</color>
-    <color name="colorFormula">#868686</color>
-    <color name="colorResult">#939393</color>
-    <color name="colorFormulaBackgroud">#434343</color>
+    <color name="colorFormulaText">#868686</color>
+    <color name="colorResultText">#939393</color>
+    <color name="colorFormulaBackgroud">#636363</color>
+    <color name="colorFormulaTextBackgroud">#434343</color>
 </resources>
